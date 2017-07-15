@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE tables
+        [
+        <!ELEMENT tables (table)>
+            <!ELEMENT table (table_source_system, table_schema, table_name, fields)>
+                <!ELEMENT table_source_system (#PCDATA)>
+                <!ELEMENT table_schema (#PCDATA)>
+                <!ELEMENT table_name (#PCDATA)>
+                <!ELEMENT fields (field)>
+                    <!ELEMENT field (field_name, field_type, field_length)>
+                        <!ELEMENT field_name (#PCDATA)>
+                        <!ELEMENT field_type (#PCDATA)>
+                        <!ELEMENT field_length (#PCDATA)>
+        ]>

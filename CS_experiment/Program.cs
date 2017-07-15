@@ -11,6 +11,10 @@ namespace CS_experiment
         static void Main(string[] args)
         {
             Console.WriteLine(DateTime.Now + " - Start");
+
+            Sources.tableHandler.xml2sql(@"C:\Users\Nongi\Documents\GitHub\CS_experiment\CS_experiment\Sources\tables_exemple.xml");
+
+            Console.WriteLine(DateTime.Now + " - End");
             Console.ReadLine();
         }
     }
