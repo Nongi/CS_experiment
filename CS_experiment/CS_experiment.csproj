@@ -49,13 +49,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Sources\tableHandler.cs" />
+    <Compile Include="Sources\Table_Structure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Sources\tables_exemple_DTD.xml" />
-    <Content Include="Sources\tables_exemple.xml" />
+    <Content Include="Sources\tables_exemple.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

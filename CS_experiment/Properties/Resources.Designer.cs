@@ -59,24 +59,5 @@ namespace CS_experiment.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-        ///        &lt;!DOCTYPE tables
-        ///        [
-        ///        &lt;!ELEMENT tables (table)&gt;
-        ///            &lt;!ELEMENT table (table_source_system, table_schema, table_name, fields)&gt;
-        ///                &lt;!ELEMENT table_source_system (#PCDATA)&gt;
-        ///                &lt;!ELEMENT table_schema (#PCDATA)&gt;
-        ///                &lt;!ELEMENT table_name (#PCDATA)&gt;
-        ///                &lt;!ELEMENT fields (field)&gt;
-        ///                    &lt;!ELEMENT field (field_name, field_type, field_length)&gt;
-        ///                        &lt;!ELEMENT fi [le reste de la chaîne a été tronqué]&quot;;.
-        /// </summary>
-        internal static string tables_exemple {
-            get {
-                return ResourceManager.GetString("tables_exemple", resourceCulture);
-            }
-        }
     }
 }

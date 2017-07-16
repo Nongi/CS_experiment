@@ -1,35 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tables>
-  <table>
-    <table_source_system>MAINFRAME</table_source_system>
-    <table_schema>SIADTMPDAY</table_schema>
-    <table_name>test_char</table_name>
-    <fields>
-      <field>
-        <field_name>id</field_name>
-        <field_type>integer</field_type>
-      </field>
-      <field>
-        <field_name>text_char</field_name>
-        <field_type>CHAR</field_type>
-        <field_length>10</field_length>
-      </field>
-    </fields>
+  <table name="test_char" schema="SIADTMPDAY">
+    <field name="id" type="integer" length="10"/>
+    <field name="text_char" type="CHAR" length="10"/>
   </table>
-  <table>
-    <table_source_system>MAINFRAME</table_source_system>
-    <table_schema>SIADTMPDAY</table_schema>
-    <table_name>test_varchar</table_name>
-    <fields>
-      <field>
-        <field_name>id</field_name>
-        <field_type>integer</field_type>
-      </field>
-      <field>
-        <field_name>text_char</field_name>
-        <field_type>VARCHAR</field_type>
-        <field_length>10</field_length>
-      </field>
-    </fields>
+  <table name="test_varchar">
+    <field name="id" type="integer" length="10"/>
+    <field name="text_varchar" type="VARCHAR" length="10"/>
   </table>
 </tables>
