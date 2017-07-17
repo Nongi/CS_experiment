@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tables>
-  <table name="test_char" schema="SIADTMPDAY">
+  <table name="test_char" schema="TMPDAY">
     <field name="id" type="integer" length="10"/>
     <field name="text_char" type="CHAR" length="10"/>
   </table>
-  <table name="test_varchar">
+  <table name="test_varchar" schema="TMPDAY">
     <field name="id" type="integer" length="10"/>
     <field name="text_varchar" type="VARCHAR" length="10"/>
   </table>
